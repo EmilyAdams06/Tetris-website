@@ -30,7 +30,7 @@ const client = new MongoClient(url, {
     useUnifiedTopology: true,
 });
 client.connect(console.log("mongodb connected"));
-const db = client.db("");
+const db = client.db("TetrisWebsite");
 const ObjectId = require("mongodb").ObjectId; // Get ObjectId type
 
 // Run Server
